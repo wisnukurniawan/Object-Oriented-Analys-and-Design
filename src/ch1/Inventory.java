@@ -1,4 +1,4 @@
-package ch1.guitarshop;
+package ch1;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -10,7 +10,6 @@ import java.util.List;
 public class Inventory {
     private List guitars;
     private Guitar guitar;
-    private GuitarSpec guitarSpec;
 
     public Inventory() {
         guitars = new LinkedList();

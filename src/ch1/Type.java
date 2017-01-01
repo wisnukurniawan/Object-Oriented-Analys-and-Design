@@ -1,10 +1,11 @@
-package ch1.GuitarShop1;
+package ch1;
 
 /**
  * Created by private on 30/12/2016.
  */
-public enum Type1 {
+public enum Type {
     ACOUSTIC, ELECTRIC;
+
 
     public String toString(){
         switch (this){

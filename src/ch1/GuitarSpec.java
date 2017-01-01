@@ -1,4 +1,4 @@
-package ch1.guitarshop;
+package ch1;
 
 /**
  * Created by private on 30/12/2016.
@@ -10,6 +10,7 @@ public class GuitarSpec {
     private Wood backWood;
     private Wood topWood;
     private int numStrings;
+
 
     public GuitarSpec(Builder builder, String model, Type type,
                       int numStrings, Wood backWood, Wood topWood) {

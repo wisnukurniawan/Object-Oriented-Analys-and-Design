@@ -1,4 +1,4 @@
-package ch1.guitarshop;
+package ch1;
 
 import java.util.Iterator;
 import java.util.List;
@@ -68,6 +68,9 @@ public class findGuitarTest {
                         Wood.COCOBOLO, Wood.CEDAR));
         inventory.addGuitar("6 29584", 2100.95,
                 new GuitarSpec(Builder.PRS, "Dave Navarro Signature", Type.ELECTRIC,
+                        6, Wood.MAHOGANY, Wood.MAPLE));
+        inventory.addGuitar("6 29584", 1100.95,
+                new GuitarSpec(Builder.JATI, "Dave Navarro Signature", Type.ELECTRIC,
                         6, Wood.MAHOGANY, Wood.MAPLE));
     }
 }

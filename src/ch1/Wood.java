@@ -1,11 +1,12 @@
-package ch1.GuitarShop1;
+package ch1;
 
 /**
  * Created by private on 30/12/2016.
  */
-public enum Wood1 {
+public enum Wood {
     INDIAN_ROSEWOOD, BRAZILIAN_ROSEWOOD, MAHOGANY, MAPLE, COCOBOLO, CEDAR, ADIRONDACK, ALDER, SITKA;
 
+    
     public String toString(){
         switch (this){
             case ADIRONDACK:        return "Adirondack";
@@ -20,4 +21,5 @@ public enum Wood1 {
             default:                return "Unspecified";
         }
     }
+
 }

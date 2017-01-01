@@ -1,13 +1,14 @@
-package ch1.guitarshop;
+package ch1;
 
 /**
  * Created by private on 30/12/2016.
  */
 public enum Builder {
-    FENDER, MARTIN, GIBSON, COLLINGS, OLSON, RYAN, PRS, ANY;
+    FENDER, MARTIN, GIBSON, COLLINGS, OLSON, RYAN, PRS, ANY, JATI;
 
     public String toString(){
         switch (this){
+            case JATI: return "Jati";
             case FENDER:    return "Fender";
             case MARTIN:    return "Martin";
             case GIBSON:    return "Gibson";
